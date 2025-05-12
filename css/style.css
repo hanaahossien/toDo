@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background: #50A8F3;
+  /* //  background-image: url('../img/White_And_Black_Aesthetic_Background.png'); */
+background-size: cover;
+   /* // background: linear-gradient(90deg, rgba(80, 168, 243, 1) 0%, rgba(63, 143, 255, 1) 100%); */
+}
+*{    box-sizing: border-box;
+}
+
+h1{font-size: 4rem;color: #fff;}
+.addtext{position: relative;width: 40%;margin: auto;}
+input#taskInput{    width: 100%;
+    border-radius: 1rem;
+    padding: 1rem ;
+    position: relative;
+    margin: auto;
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.addBtn{    position: absolute;
+    top: 0;
+    right: 0;
+    background: #50a8f3;
+    border: none;
+    padding: 1rem;position: absolute;
+    top: 0;
+    right: 0;
+    background: #50a8f3;
+    border: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1.5px solid #fff;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    color: #fff;}
+.container{
+    width: 100%;
+    margin: auto;
+    padding: 1rem ;
+    border-radius: 0;
+    background-image: url("../img/lined_paper.png");
+    background-size: 30%;
+
+}
+.tblebtn{    background:rgb(80 168 243);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 2px;}
+
+    .done{background-color: aqua;}
+
+    table#taskTable {
+        text-align: left;
+    }
